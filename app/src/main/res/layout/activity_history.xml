@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jasonstanl3y.helloworld.HistoryActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="@string/historyHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="312dp"
+        android:layout_height="347dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="73dp"
+        android:text="Alias cksum date dirname export false fdisk fg fgrep fsck getopts if killall look lpc nohup sleep split test true tsort tty vmstat which xargs. Cal env ethtool eval history kill mkisofs reboot sftp tee tracerout xdg-open. Bc break chown comm csplit dirs expand fdisk free if kill let locate lprint more ping printcap printenv readonly rename renice sftp sum sync test usermod. Dc dir dirname dmesg env fold id ifup import let lprintq lprm ls mkfifo rcp sed shift slocate symlink until useradd. Builtin cal cp ddrescue fold free groupdel open pathchk screen symlink vmstat wait. Bg cal dd dirname eject eval getopts ifdown join killall ln netstat op pwd remsync return rm rsync scp trap tsort uname unset who.  "
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>
